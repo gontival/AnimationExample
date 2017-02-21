@@ -1,0 +1,34 @@
+﻿body {
+}
+
+#cover{
+    display: none;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#messageBox{
+    display : none;
+    position : absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+}
+
+#messageContent{
+    position: relative;
+    border-style: solid;
+    width: 30%;
+    height: 30%;
+    margin: 100px auto auto auto;
+    border-width : 1px;
+    padding: 10px;
+    background-color: yellow;
+    display: none;
+}
